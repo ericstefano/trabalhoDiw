@@ -1,0 +1,30 @@
+.text-justify {
+    text-align: justify;
+}
+
+.overflow-carousel {
+    overflow: auto;
+    max-height: 47em;
+}
+
+.overflow-text {
+    overflow: auto;
+    min-height: 2em;
+    max-height: 6em;
+}
+
+.truncate {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .zoom {
+    transition: transform .2s;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.04);
+  }
